@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+
+.box{
+    margin-top: 100px;
+}
+
+.box1{
+    height: 250px;
+    width: 300px;
+    background-color: #d1b1b7; 
+    margin-left: 60%;    
+}
+
+.box1 img{
+    height: 400px;
+    margin-left: -30px;
+    margin-top: -50px;
+    /* #c09299 */
+
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: #e0c7cc; 
+    margin-left: 41%; 
+    margin-top: -40px;   
+}
+
+.box2 h3{
+    padding-top: 110px;
+    color: #CD2F42;
+    font-family: "Quicksand", sans-serif;
+    font-family: 'Inter';
+    font-size: 50px;
+    margin-left: -480px;
+}
+
+
+
+@media(max-width:1920px){
+ 
+    .box2{
+        height: 300px;
+        width: 300px;
+        background-color: #e0c7cc; 
+        margin-left: 46%; 
+        margin-top: -40px;   
+    }
+
+}
+
+
+@media(max-width:1400px){
+
+    .box{
+        margin-top: 100px;
+    }
+    
+    .box1{
+        height: 250px;
+        width: 300px;
+        background-color: #d1b1b7; 
+        margin-left: 60%;    
+    }
+    
+    .box1 img{
+        height: 400px;
+        margin-left: -30px;
+        margin-top: -50px;
+    
+    }
+    
+    .box2{
+        height: 300px;
+        width: 300px;
+        background-color: #e0c7cc; 
+        margin-left: 41%; 
+        margin-top: -40px;   
+    }
+    
+    .box2 h3{
+        padding-top: 110px;
+        color: #CD2F42;
+        font-family: "Quicksand", sans-serif;
+        font-size: 50px;
+        margin-left: -480px;
+    }
+}
+
+
+@media(max-width:1208px){
+    
+
+
+    .box2 h3{
+        padding-top: 150px;
+        font-size: 45px;
+        margin-left: -350px;
+    }
+
+}
+
+
+@media(max-width:1008px){
+    
+
+
+    .box2 h3{
+        padding-top: 150px;
+        font-size: 40px;
+        margin-left: -300px;
+    }
+
+}
+
+
+@media(max-width:908px){
+    .box1{
+        margin-left: 15%;    
+    }
+    
+    
+    .box2{
+        
+        margin-left: 48%; 
+        margin-top: -40px;   
+    }
+
+
+    .box2 h3{
+        padding-top: 150px;
+        font-size: 30px;
+        margin-left: -140px;
+    }
+
+}
+
+
+
+@media(max-width:608px){
+    .box1{
+        margin-left: 5%;  
+        height: 250px;
+        width: 250px;  
+    }
+    
+    
+    .box2{
+        height: 250px;
+        width: 250px;  
+        margin-left:29%; 
+        margin-top: -40px;   
+    }
+
+
+    .box2 h3{
+        padding-top: 150px;
+        font-size: 20px;
+        margin-left: -100px;
+    }
+
+}
+
+
+
+
+
