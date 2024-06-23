@@ -5,14 +5,14 @@ function UserLocation() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        // Check if geolocation is available
+       
         if (navigator.geolocation) {
-            // Fetch user's current position
+           
             navigator.geolocation.getCurrentPosition(
                 (position) => {
                     const { latitude, longitude } = position.coords;
 
-                    // Call OpenCage API for reverse geocoding
+                  
                     fetch(`https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=5b1f9abf95ec453f8fefbfb1b6d6adea`)
                         .then(response => response.json())
                         .then(data => {
